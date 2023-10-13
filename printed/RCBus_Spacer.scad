@@ -35,7 +35,7 @@ bevel = 0.2;
 tolerance=0.1;
 $fn=90;
 
-color("blue") card_spacer();
+rotate([90,0,0]) color("blue") card_spacer();
 
 module card_spacer() {
     difference() {
